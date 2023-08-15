@@ -7,8 +7,10 @@ This is the tutorial created by [Dima Nikiforov](https://www.linkedin.com/in/dim
 * Introduction to Robotics
 * Scientific Programming and Quantization
 * Deep Neural Networks (DNN)
-* Reinforcement Learning (RL) 
+* Reinforcement Learning (RL)
+  
 The slides of the class are available through the following link: [lecture slides](https://docs.google.com/presentation/d/1aLcF6UbZxzHJhVKkxmO-jFUWJreh792BKoxEXGfzUTs/)
+
 The material has been made open source FOR NON-COMMERCIAL USE only. Please contact the author for any questions: <vnikiforov@berkeley.edu>, <krisdong@berkeley.edu>
 
 ## Basic Installation
