@@ -1,6 +1,6 @@
-# RiskyBird for ROAR-Academy
+# RiskyBird Academy
 
-This is the tutorial created by [Dima Nikiforov](https://www.linkedin.com/in/dima) and [Kris Dong](https://www.linkedin.com/in/chris-dong/) for ROAR Academy. The material has been taught at the University of California, Berkeley, as part of Berkeley ROAR Racing curriculum to students who want to learn entry-level skills about:
+This is the tutorial created by [Dima Nikiforov](https://www.linkedin.com/in/dima) and [Kris Dong](https://www.linkedin.com/in/chris-dong/) for RiskyBird Academy. The material has been taught at the University of California, Berkeley, for entry-level high school students who want to learn following concepts:
 
 * Introduction to Embedded Systems
 * Machine Learning Programming on Edge device 
@@ -8,7 +8,7 @@ This is the tutorial created by [Dima Nikiforov](https://www.linkedin.com/in/dim
 * Scientific Programming and Quantization
 * Deep Neural Networks (DNN)
 * Reinforcement Learning (RL) 
-
+The slides of the class are available through the following link: [lecture slides](https://docs.google.com/presentation/d/1aLcF6UbZxzHJhVKkxmO-jFUWJreh792BKoxEXGfzUTs/)
 The material has been made open source FOR NON-COMMERCIAL USE only. Please contact the author for any questions: <vnikiforov@berkeley.edu>, <krisdong@berkeley.edu>
 
 ## Basic Installation
