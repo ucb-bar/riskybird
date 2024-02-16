@@ -1,6 +1,6 @@
 # RiskyBird Academy
 
-This is the tutorial created by [Dima Nikiforov](https://www.linkedin.com/in/dima) and [Kris Dong](https://www.linkedin.com/in/chris-dong/) for RiskyBird Academy. The material has been taught at the University of California, Berkeley, for entry-level high school students who want to learn following concepts:
+This is the tutorial created by [Dima Nikiforov](https://www.linkedin.com/in/dima-n/) and [Kris Dong](https://www.linkedin.com/in/chris-dong/) for RiskyBird Academy. The material has been taught at the University of California, Berkeley, for entry-level high school students who want to learn following concepts:
 
 * Introduction to Embedded Systems
 * Machine Learning Programming on Edge device 
