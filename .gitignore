@@ -1,0 +1,59 @@
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+# KiCad backup files and directories
+*-backups/
+*.backup
+*.bak
+
+# KiCad lock files (temporary files created when KiCad is open)
+*.lck
+~*
+
+# KiCad cache files
+fp-info-cache
+*.cache
+
+# KiCad output directories
+out/
+bom/
+production/
+plugins/
+
+# ZIP files (backups and temporary archives)
+*.zip
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+*.egg-info/
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Compiled files
+*.o
+*.a
+*.lib
+*.dll
+*.exe
+
+# Temporary files
+*.tmp
+*.temp
+*.log

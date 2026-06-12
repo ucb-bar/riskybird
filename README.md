@@ -1,78 +1,38 @@
-# RiskyBird Academy
+# RiskyBird
 
-This is the tutorial created by [Dima Nikiforov](https://www.linkedin.com/in/dima-n/) and [Kris Dong](https://www.linkedin.com/in/chris-dong/) for RiskyBird Academy. The material has been taught at the University of California, Berkeley, for entry-level high school students who want to learn following concepts:
+RiskyBird is an experimental quadcopter platform for hardware-software-mechanical co-design of tiny autonomous robots.
 
-* Introduction to Embedded Systems
-* Machine Learning Programming on Edge device 
-* Introduction to Robotics
-* Scientific Programming and Quantization
-* Deep Neural Networks (DNN)
-* Reinforcement Learning (RL)
-  
-The slides of the class are available through the following link: [lecture slides](https://docs.google.com/presentation/d/1aLcF6UbZxzHJhVKkxmO-jFUWJreh792BKoxEXGfzUTs/)
+## Overview
 
-The material has been made open source FOR NON-COMMERCIAL USE only. Please contact the author for any questions: <vnikiforov@berkeley.edu>, <krisdong@berkeley.edu>
+This repository contains multiple iterations of RiskyBird hardware designs:
 
-## Basic Installation
+- **riskybirdv2_sensor/** - Sensor board with IMU, optical flow, and camera interface
+- **riskybirdv2_esp/** - ESP32-based flight controller
+- **riskybirdv2_k230d/** - K230D-based compute module
+- **riskybirdv3_base/** - Latest iteration with integrated base board design
+- **ecad/** & **ecad_2025/** - Electronic CAD files and libraries
 
-Users of this course are recommended to install the following software packages. The packages have been tested on Windows 10 and above, Mac OSX, and Ubuntu Linux systems.
+## Design Goals
 
-* Python 3.8 via Miniconda (conda): <https://docs.conda.io/en/latest/miniconda.html>
-* Git: <https://git-scm.com/book/en/v2/Getting-Started-Installing-Git>
-* Visual Studio Code (code): <https://code.visualstudio.com/download>
+- Miniaturized form factor for agile flight
+- Modular sensor and compute architecture
+- On-board ML inference capability
+- Rapid prototyping and iteration
 
-**NOTE: If you are running conda and code in Windows, launching code from Anaconda Prompt will make sure that the conda environment available inside the integrated Terminal window. Otherwise you may encounter error that conda is not installed**
+## Hardware
 
-Once Python 3.8 is installed, the following Python modules can be installed using pip within the conda environment (for example, in (base) environment):
-~~~
-    python -m pip install numpy matplotlib
-~~~
+The platform uses KiCad for PCB design and integrates:
+- Low-cost sensors (IMU, optical flow, cameras)
+- ESP32 for real-time control
+- Optional AI accelerator (K230D) for perception
+- Custom power distribution and motor control
 
-## Tensorflow Installation for Windows and Linux
+## Educational Content
 
-For the DNN portion, we use tensorflow 2 and keras. The installation shall reference the official documentation: <https://www.tensorflow.org/install>. 
+See [riskybird-academy/](riskybird-academy/) for tutorial materials covering embedded ML, robotics, and reinforcement learning.
 
-**Due to the fact that Google stopped supporing Windows Native environment above tensorflow 2.10, please make sure to install and use tensorflow 2.10 for compatibility with our tested code**
+## License
 
-**If your PC comes with supported NVidia GPU for accelerating DNN code, please follow carefully the setup of GPU support for Linux and Windows Native. For MacOS, please read the instruction at the end**
+Hardware designs and educational materials are open source for non-commercial use.
 
-After you have setup your system for an installation on either CPU or GPU, run the following pip script to install tensorflow 2.10
-~~~
-    pip install --upgrade pip
-    pip install tensorflow==2.10
-    pip install numpy==1.21
-~~~
-
-Finally, you may verify tensorflow has been properly set up by running the following test
-~~~
-    python -c "import tensorflow as tf; print(tf.reduce_sum(tf.random.normal([1000, 1000])))"
-~~~
-
-If you have install tensorflow with GPU support, you may verify by running the following test
-~~~
-    python -c "import tensorflow as tf; print(tf.config.list_physical_devices('GPU'))"
-~~~
-
-## Tensorflow Installation with Metal accelerated backend for MacOS
-
-Apple has released a Metal-accelerated tensorflow backend to utilize the GPU on MacOS. Please visit Apple website to install tensorflow 2.10: <https://developer.apple.com/metal/tensorflow-plugin/>
-
-## Installation of Reinforcement Learning Modules
-
-This course will require installation of the following reinforcement learning modules:
-
-* gym simulator: <https://github.com/openai/gym>
-~~~
- pip install gym==0.17.3
- pip install pyglet==1.5.11
-~~~
-
-* gym-pybullet-drones simulator
-~~~
- git submodule update --init --recursive
- cd sim/gym-pybullet-drones/
- pip3 install --upgrade pip
- pip3 install -e .
- pip3 install pyserial
-~~~
-
+Contact: vnikiforov@berkeley.edu
