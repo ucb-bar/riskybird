@@ -1,0 +1,215 @@
+(footprint "poko_yoko_uart_SMD"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "UART RX/TX Poka-Yoke 0805")
+	(property "Reference" "REF**"
+		(at 0 -2.54 0)
+		(layer "F.SilkS")
+		(uuid "7d8595c0-3356-46a6-843a-e146d7e9059e")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.125)
+			)
+		)
+	)
+	(property "Value" "${REFERENCE}"
+		(at 3.556 7.62 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5dc97051-21ee-4221-b793-bda6b6a312b2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a6ba0fb6-bb69-438d-9814-5adbaa10e180")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "UART RX/TX Poka-Yoke"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c5ef0ed6-337d-4acc-840b-afccd8ca6373")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -1.85 0.172064)
+		(end -1.85 -0.282064)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0ebc96f1-65b5-435f-8a29-f29d3dd45426")
+	)
+	(fp_line
+		(start -0.2 -1.85)
+		(end 0.2 -1.85)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fc8662e6-e9ce-4fb5-bc0a-b9b6e502e967")
+	)
+	(fp_line
+		(start -0.172064 1.85)
+		(end 0.282064 1.85)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "54971306-ce9d-46e5-ae35-ef455c53b00b")
+	)
+	(fp_line
+		(start 1.85 0.2)
+		(end 1.85 -0.2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9a30e84b-5930-4ad5-b864-5814faba3c77")
+	)
+	(fp_line
+		(start -1.9 -1.9)
+		(end 1.9 -1.9)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0d4768db-ac86-44de-8401-81d50e01c512")
+	)
+	(fp_line
+		(start -1.9 1.9)
+		(end -1.9 -1.9)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e68d0488-595c-4ebe-a82e-f71ef13bcff6")
+	)
+	(fp_line
+		(start 1.9 -1.9)
+		(end 1.9 1.9)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a897caeb-9fe5-4185-8e51-a66734c7560c")
+	)
+	(fp_line
+		(start 1.9 1.9)
+		(end -1.9 1.9)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e4a1aa3c-b8e7-4cb1-8133-d24884696c60")
+	)
+	(fp_line
+		(start -1.75 -1.75)
+		(end 1.75 -1.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4c2b720b-4383-4f33-8d4d-76c286aee959")
+	)
+	(fp_line
+		(start -1.75 1.75)
+		(end -1.75 -1.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "31d34097-2c72-4d3f-b9e5-ebd7ece2f0aa")
+	)
+	(fp_line
+		(start 1.75 -1.75)
+		(end 1.75 1.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "72a64a39-c820-45f2-bace-e1efe424b1e9")
+	)
+	(fp_line
+		(start 1.75 1.75)
+		(end -1.75 1.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9c788e39-ac7b-4ede-ae83-c78f210c2d46")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.54 0)
+		(layer "F.Fab")
+		(uuid "575a944e-1c2e-49b4-a945-5dc1724bfa1e")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.08)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -1.055 -1.055)
+		(size 1.4 1.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.208333)
+		(uuid "7f082fb2-6ac5-4e05-b4b8-ae175c26fbd4")
+	)
+	(pad "2" smd roundrect
+		(at -1.055 1.055)
+		(size 1.4 1.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.208333)
+		(uuid "8ffe4808-38fb-41ce-88b7-6d87c5beef8a")
+	)
+	(pad "3" smd roundrect
+		(at 1.055 1.055)
+		(size 1.4 1.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.208333)
+		(uuid "5e057ed0-86f4-458f-b23c-0260110878b8")
+	)
+	(pad "4" smd roundrect
+		(at 1.055 -1.055)
+		(size 1.4 1.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.208333)
+		(uuid "329d0370-ef26-4520-975e-6a731f96485d")
+	)
+	(embedded_fonts no)
+)

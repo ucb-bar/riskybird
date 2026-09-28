@@ -39,18 +39,34 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.762,
-          "height": 1.524,
-          "width": 1.524
+          "drill": 1.0,
+          "height": 1.5,
+          "width": 1.5
         },
         "silk_line_width": 0.12,
         "silk_text_italic": false,
-        "silk_text_size_h": 1.0,
-        "silk_text_size_v": 1.0,
-        "silk_text_thickness": 0.15,
+        "silk_text_size_h": 0.5,
+        "silk_text_size_v": 0.5,
+        "silk_text_thickness": 0.125,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.2
+          "border_display_style": 2,
+          "border_hatch_pitch": 0.5,
+          "corner_radius": 0.0,
+          "corner_smoothing": 0,
+          "fill_mode": 0,
+          "hatch_gap": 1.5,
+          "hatch_orientation": 0.0,
+          "hatch_smoothing_level": 0,
+          "hatch_smoothing_value": 0.1,
+          "hatch_thickness": 1.0,
+          "min_clearance": 0.1,
+          "min_island_area": 10.0,
+          "min_thickness": 0.1,
+          "pad_connection": 1,
+          "remove_islands": 0,
+          "thermal_relief_gap": 0.1,
+          "thermal_relief_spoke_width": 0.9
         }
       },
       "diff_pair_dimensions": [
@@ -146,7 +162,7 @@
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.15,
         "min_track_width": 0.1,
-        "min_via_annular_width": 0.15,
+        "min_via_annular_width": 0.1,
         "min_via_diameter": 0.4,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
@@ -201,6 +217,8 @@
         0.25,
         0.3,
         0.4,
+        0.6,
+        0.8,
         1.0,
         1.5
       ],
@@ -237,7 +255,15 @@
         },
         {
           "diameter": 0.45,
-          "drill": 0.15
+          "drill": 0.2
+        },
+        {
+          "diameter": 0.55,
+          "drill": 0.25
+        },
+        {
+          "diameter": 0.65,
+          "drill": 0.35
         },
         {
           "diameter": 0.8,
@@ -934,7 +960,7 @@
         "uuid": "b045bc91-b5c2-4b45-9ee6-c32404600013"
       }
     ],
-    "used_designators": "J12-13",
+    "used_designators": "R5,R11,R21,R24,R26-29,R34-35,R37-39,R46-52,R58,R67-80,J1,J7-8,J12,#PWR7,#PWR28-29,#PWR31,#PWR45,#PWR54,#PWR56,#PWR67,#PWR82,#PWR87-102,#PWR104-105,#PWR119-120,#PWR122-123,#PWR141-142,#PWR152-156,#PWR197-221,BATT1,FID1,NT1,HM01B0_Conn1,TP1-4,C44-45,C47-50,C67-87,D8,U6,U8,U12-13,U15-16,1V9-10,3V4-5,Q6-10,L1-2,P1,2V9",
     "variants": []
   },
   "sheets": [

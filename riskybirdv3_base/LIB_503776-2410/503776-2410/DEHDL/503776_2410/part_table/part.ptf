@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '503776_2410'
+CLASS = IO
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Molex", "503776-2410" (!) = "", "5037762410", "Other", "538-503776-2410", "https://www.mouser.co.uk/ProductDetail/Molex/503776-2410?qs=73RpG39PUGh8ZO0vVVQvWA%3D%3D", "MOLEX - 503776-2410 - CONNECTOR, STACKING, PLUG, 24POS, 2ROW", "https://componentsearchengine.com/Datasheets/1/503776-2410.pdf", "0.78 mm"
+END_PART
+
+END.

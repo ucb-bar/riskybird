@@ -57,3 +57,4 @@ build/
 *.tmp
 *.temp
 *.log
+.history/
